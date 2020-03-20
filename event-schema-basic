@@ -1,0 +1,30 @@
+<script type='application/ld+json'> 
+{
+  "@context": "https://www.schema.org",
+  "@type": "Event",
+  "name": "Example Event",
+  "url": "http://www.example.com/event-1",
+  "description": "Join us this fine day at our event",
+  "startDate": "10/05/2020 12:00PM",
+  "endDate": "10/05/2020 04:00PM",
+  "location": {
+    "@type": "Place",
+    "name": "The Place",
+    "sameAs": "http://www.the-place-website.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 ABC Street",
+      "addressLocality": "Whoville",
+      "addressRegion": "State abbreviation or country/region",
+      "postalCode": "Zip or Postcode",
+      "addressCountry": "Country abbreviation, e.g. USA, UK"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "description": "an offer description",
+    "url": "http://www.example.com/offer",
+    "price": "£9.99"
+  }
+}
+ </script>
